@@ -35,4 +35,6 @@ extension ShareService: ServiceAuthenticationUI {
             )
         ]
     }
+    
+    public var credentialFormFieldHelperMessage: String? { nil }
 }
